@@ -2,6 +2,7 @@
 
 #选择版本( 查找去 https://golang.org/dl/ )
 
+apt install golang -y
 sudo rm -rf /usr/local/go
 sudo apt-get remove golang -y
 sudo apt-get remove golang-go -y

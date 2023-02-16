@@ -1,13 +1,16 @@
 #!/bin/bash
+
+#选择版本( 查找去 https://golang.org/dl/ )
+
 sudo rm -rf /usr/local/go
 sudo apt-get remove golang -y
 sudo apt-get remove golang-go -y
 sudo apt-get autoremove -y
 
 #下载文件
-sudo wget https://golang.google.cn/dl/go1.18.5.linux-amd64.tar.gz
+sudo wget https://golang.google.cn/dl/go1.20.1.linux-amd64.tar.gz
 # 解压文件
-sudo tar xfz go1.18.5.linux-amd64.tar.gz -C /usr/local
+sudo tar xfz go1.20.1.linux-amd64.tar.gz -C /usr/local
 
 #设置环境变量
 
